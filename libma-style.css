@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    color: black;
+
+}
+
+.header li{
+    font-size: 4.5vh;
+   
+    padding: 1vw  4vh;
+    color:WHITE;
+    text-decoration: none;
+    
+    
+}
+.header{
+    background-color: rgb(202, 153, 19);
+    height:100vh;
+    width:18vw;
+    text-decoration: none;
+}
+.image{
+    height: 40vh;
+    width:20vw;
+}
+ul .im-div{
+    float: left;
+
+}
+ul .bdiv{
+    padding: 1vh 0.5vh;
+    float: left;
+}
+nav {
+    transition: transform 1s ease;
+    transform: translateX(-100%); /* initial position offscreen */
+  }
+  
+  /* Slide the navbar out from the left side of the screen when the middle left of the screen is hovered */
+  body:hover nav {
+    transform: translateX(0);
+  }
+  
+  
